@@ -1,0 +1,130 @@
+body {
+       font-family: 'Lato', sans-serif;
+       color: #2d3c49;
+       font-weight: 400;
+     }
+	 
+	 
+hr {
+     border-top: 3px solid #bcbbbb;
+    }
+	
+/* the below style is used for active and visited link on the bottom of the page */	
+
+a:link {
+     color: #000019;
+    }
+	
+	
+a:visited {
+	 color: #9999ff;
+     }
+	 
+/* the below section adds minor breakpoint for 981 pixel width screen */
+
+@media screen and ( min-width: 981px) {
+
+     .thinner-font {
+        font-weight: 100;
+        }
+	 
+     .thin-font {
+        font-weight: 300;
+       }
+	
+	
+     .muted-color {
+         color: #7d97ad;
+         margin-left: 12px;
+         font-size: 32px;
+         letter-spacing: 2.0px;
+        }
+
+	
+     .svglogo {
+         margin-top: 17px;	
+        }
+  
+  
+     .proj-img {
+         margin-left: 0px;
+        }
+
+}
+
+/* the below section adds minor breakpoint for smaller screen widths */
+
+@media screen and (min-width: 145px) and (max-width: 697px) {
+
+     .thinner-font {
+	     font-weight: 100;
+         font-size: 30px;
+     }
+	 
+	 
+     .thin-font {
+         font-weight: 300;
+         font-size: 15px;
+     }
+	 
+	 
+     .muted-color {
+         color: #7d97ad;
+	     font-size: 2.0em;
+	     letter-spacing: 2.0px;
+     }
+	 
+	 
+     p.links {
+         font-size: 1.0em;
+         margin-bottom: 20px;
+     }
+}
+ 
+ /* the below section adds minor breakpoint for medium to large screen widths*/
+
+ @media screen and (min-width: 698px) and (max-width : 991px) {
+	
+     .thinner-font {
+        font-weight: 100;
+        font-size: 50px;
+       }
+	
+	
+     .thin-font {
+        font-weight: 300;
+        font-size: 28px;
+        }
+	
+	
+     p.links {
+	    font-size: 1.8em;
+	    margin-bottom: 29px;
+      }
+	
+	
+    span.label {
+       font-size: 40px;
+       }
+
+	
+    .muted-color {
+         color: #7d97ad;
+         font-size: 55px;
+         letter-spacing: 2.0px;
+         margin-left: 60px;
+         margin-top: 40px;
+         margin-bottom: 16px;
+        }
+
+	 
+    .svglogo {
+	     margin-top: 41px;
+         }
+
+	
+    .proj-img {
+         margin-left: 45px;
+        }
+ 
+} 
