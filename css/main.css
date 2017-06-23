@@ -3,7 +3,11 @@ body {
        color: #2d3c49;
        font-weight: 400;
      }
-	 
+img.img-responsive.proj-img {
+    border-style: solid;
+    border-width: 4;
+    border-width: 3px;
+}
 	 
 hr {
      border-top: 3px solid #bcbbbb;
